@@ -1,0 +1,59 @@
+/* background */
+.bg {
+  background: rgb(43, 43, 43);
+}
+#word {
+  color: rgb(160, 91, 31);
+  font-size: 28px;
+  text-align: center;
+  margin-top: 45vh;
+}
+
+/*css de restaurant */
+.word1, .word2 {
+  color: rgb(160, 91, 31);
+  font-size: 40px;
+  margin-bottom: -3rem;
+}
+.word2 {
+  font-size: 25px;
+  margin-bottom: 3.5rem;
+}
+.br {
+  border: 1px solid white;
+  margin: 4rem;
+}
+.left {
+  border: 3px solid white;
+  margin-right: 32rem;
+  margin-left: 2rem;
+  height: 2rem;
+  margin-top: -5rem;
+}
+.rigth {
+  border: 3px solid white;
+  margin-right: 2rem;
+  height: 2rem;
+  margin-top: -2rem;
+  margin-left: 32rem;
+}
+#map {
+  height: 150px;
+  margin-left: 2rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+#inputrest {
+  width: 90%;
+  margin-left: 1rem;
+}
+.img {
+  height: 100px;
+  margin-right: 1rem;
+}
+.img2 {
+  width: 150px;
+  height: 125px;
+  padding-top: 1rem;
+
+}
