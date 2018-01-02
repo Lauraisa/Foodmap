@@ -43,17 +43,27 @@
   margin-right: 3rem;
   margin-top: 2rem;
 }
-#inputrest {
+#selectrest {
   width: 90%;
   margin-left: 1rem;
 }
+#selectSuccess2 {
+  height: 40px;
+}
+.glyphicon-search {
+  border-radius: 10px;
+  border: 1px solid rgb(43, 43, 43);
+  background-color: rgb(43, 43, 43);
+  margin: 4px 3px;
+}
+/* images de restaurant */
 .img {
   height: 100px;
   margin-right: 1rem;
 }
 .img2 {
-  width: 150px;
-  height: 125px;
+  width: 140px;
+  height: 100px;
   padding-top: 1rem;
 
 }
