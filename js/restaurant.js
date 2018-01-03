@@ -11,25 +11,26 @@ function init(){
   }
   
 $(document).ready(function () {
-  $('#selectSuccess2').on('click',function(){
+  $('#selectSuccess2').on('change',function(){
     var valor = $(this).val();
+    $('#container').html('');
     if (valor === 'comida mexicana') {
-     $('#box').remove().hide(); 
-     $('#container').append('<div class="col-xs-4"> + <img class= "img-responsive img" id="enchiladas" + src="../assets/img/enchiladas.jpg">')
-     .append('<div class="col-xs-4"> + <img class= "img-responsive img" + src="../assets/img/guacamole.jpg">')
-     .append('<div class="col-xs-4"> + <img class= "img-responsive img" + src="../assets/img/pozole.jpg">');
+     $('#box').remove(); 
+     $('#container').append('<div class="col-xs-4" data-toggle="modal" data-target="#exampleModal"> + <img class= "img-responsive img" id="enchiladas" + src="../assets/img/enchiladas.jpg">')
+     .append('<div class="col-xs-4" data-toggle="modal" data-target="#exampleModal"> + <img class= "img-responsive img" + src="../assets/img/guacamole.jpg">')
+     .append('<div class="col-xs-4" data-toggle="modal" data-target="#exampleModal"> + <img class= "img-responsive img" + src="../assets/img/pozole.jpg">');
     } 
     else if (valor === 'comida peruana'){
       $('#box').remove();
-      $('#container').append('<div class="col-xs-4"> + <img class= "img-responsive img" + src="../assets/img/rocoto.jpg">')
-      .append('<div class="col-xs-4"> + <img class= "img-responsive img" + src="../assets/img/menestron.jpg">')
-      .append('<div class="col-xs-4"> + <img class= "img-responsive img" + src="../assets/img/huancaina.jpg">');
+      $('#container').append('<div class="col-xs-4" data-toggle="modal" data-target="#exampleModal"> + <img class= "img-responsive img" + src="../assets/img/rocoto.jpg">')
+      .append('<div class="col-xs-4" data-toggle="modal" data-target="#exampleModal"> + <img class= "img-responsive img" + src="../assets/img/menestron.jpg">')
+      .append('<div class="col-xs-4" data-toggle="modal" data-target="#exampleModal"> + <img class= "img-responsive img" + src="../assets/img/huancaina.jpg">');
     }
     else if (valor === 'comida japonesa'){
       $('#box').remove();
-      $('#container').append('<div class="col-xs-4"> + <img class= "img-responsive img" + src="../assets/img/yakitori.jpg">')
-      .append('<div class="col-xs-4"> + <img class= "img-responsive img" + src="../assets/img/takoyakis.jpg">')
-      .append('<div class="col-xs-4"> + <img class= "img-responsive img" + src="../assets/img/sushi.jpg">');
+      $('#container').append('<div class="col-xs-4" data-toggle="modal" data-target="#exampleModal"> + <img class= "img-responsive img" + src="../assets/img/yakitori.jpg">')
+      .append('<div class="col-xs-4" data-toggle="modal" data-target="#exampleModal"> + <img class= "img-responsive img" + src="../assets/img/takoyakis.jpg">')
+      .append('<div class="col-xs-4" data-toggle="modal" data-target="#exampleModal"> + <img class= "img-responsive img" + src="../assets/img/sushi.jpg">');
     }
     else {
       return $('option','#inicio');

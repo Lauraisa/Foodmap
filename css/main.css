@@ -59,10 +59,10 @@
 /* images de restaurant */
 .img {
   height: 100px;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
 }
 .img2 {
-  width: 140px;
+  /* width: 140px; */
   height: 100px;
   padding-top: 1rem;
 
